@@ -2,31 +2,39 @@
 <html>
 <head>
 	<title>Kassim Ouattara</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<nav>
 		<ul>
-			<a href="index.html">About me!</a>
-			<a href="index2.html">Portfolio</a>
-			<a href="index3.html">Contacte moi!</a>
+			<a class="menu" href="index.html">About me!</a>
+			<a class="menu" href="index2.html">Portfolio</a>
+			<a class="menu" href="index3.html">Contacte moi!</a>
 		</ul>
 	</nav>
 	<article>
+		<header>
+			<h1>Contact me</h1>
+			<p>Feel free o send me a message</p>
+		</header>
 		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 		<div class="row">
-			<label for="name">Your name:</label><br />
-			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			<label for="name">Your name:</label><br>
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br>
 		</div>
 		<div class="row">
-			<label for="email">Your email:</label><br />
-			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			<label for="email">Your email:</label><br>
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br>
 		</div>
 		<div class="row">
-			<label for="message">Your message:</label><br />
-			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+			<label for="message">Your message:</label><br>
+			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br>
 		</div>
-	<input id="submit_button" type="submit" value="Send email" />
-</form>
+			<input id="submit_button" type="submit" value="Send email">
+		</form>
 	</article>
+	<footer>
+		<p>Copyright Kassim Ouattara</p>
+	</footer>
 </body>
 </html>
